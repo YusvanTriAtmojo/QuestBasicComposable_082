@@ -84,6 +84,10 @@ fun BasicCompose(
             modifier = Modifier
                 .padding(20.dp),
         )
+
+        Text(
+            text = "Yusvan Tri Atmojo",
+        )
     }
 }
 
