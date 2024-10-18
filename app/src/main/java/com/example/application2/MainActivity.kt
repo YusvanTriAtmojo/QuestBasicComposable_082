@@ -18,8 +18,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
@@ -93,6 +95,10 @@ fun BasicCompose(
                 brush = Brush.linearGradient(listOf(Color.Green, Color.Blue)),
                 fontSize = 25.sp,
                 fontFamily = FontFamily.Serif,
+                shadow = Shadow(
+                    color = Color.Black,
+                    offset = Offset(4f,4f),
+                    blurRadius = 10f),
             )
         )
     }
