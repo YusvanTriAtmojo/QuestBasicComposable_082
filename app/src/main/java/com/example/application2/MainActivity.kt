@@ -72,6 +72,10 @@ fun BasicCompose(
                 .size(200.dp)
                 .shadow(5.dp, shape = CircleShape)
         ) //atau " "
+
+        Text(
+            text = "Nama",
+        )
     }
 }
 
