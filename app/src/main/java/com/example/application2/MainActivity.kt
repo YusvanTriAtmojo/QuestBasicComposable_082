@@ -80,7 +80,9 @@ fun BasicCompose(
             fontStyle = FontStyle.Italic,
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily.Cursive,
-            fontSize = 30.sp
+            fontSize = 30.sp,
+            modifier = Modifier
+                .padding(20.dp),
         )
     }
 }
