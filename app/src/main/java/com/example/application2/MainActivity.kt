@@ -101,6 +101,9 @@ fun BasicCompose(
                     blurRadius = 10f),
             )
         )
+        Text(
+            text = "20220140082",
+        )
     }
 }
 
