@@ -106,6 +106,8 @@ fun BasicCompose(
             style = TextStyle(
                 fontWeight = FontWeight.ExtraBold,
                 fontSize = 35.sp,
+                fontFamily = FontFamily.Serif,
+                color = Color.Blue,
 
             )
         )
