@@ -91,6 +91,8 @@ fun BasicCompose(
             style = TextStyle(
                 fontWeight = FontWeight.Bold,
                 brush = Brush.linearGradient(listOf(Color.Green, Color.Blue)),
+                fontSize = 25.sp,
+                fontFamily = FontFamily.Serif,
             )
         )
     }
