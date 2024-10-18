@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -87,6 +88,10 @@ fun BasicCompose(
 
         Text(
             text = "Yusvan Tri Atmojo",
+            style = TextStyle(
+                fontWeight = FontWeight.Bold,
+                brush = Brush.linearGradient(listOf(Color.Green, Color.Blue)),
+            )
         )
     }
 }
