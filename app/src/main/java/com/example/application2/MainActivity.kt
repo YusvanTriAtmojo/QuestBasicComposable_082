@@ -115,6 +115,9 @@ fun BasicCompose(
         )
         Image(painter = painterResource(id =R.drawable.saya),
             contentDescription = null,
+            modifier = Modifier
+                .size(300.dp)
+                .shadow(5.dp, shape = CircleShape)
         )
     }
 }
