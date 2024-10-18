@@ -103,13 +103,15 @@ fun BasicCompose(
         )
         Text(
             text = "20220140082",
+            modifier = Modifier.padding(20.dp),
             style = TextStyle(
                 fontWeight = FontWeight.ExtraBold,
                 fontSize = 35.sp,
                 fontFamily = FontFamily.Serif,
                 color = Color.Blue,
-
+                letterSpacing = 4.sp,
             )
+
         )
     }
 }
