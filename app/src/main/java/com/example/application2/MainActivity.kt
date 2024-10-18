@@ -113,6 +113,9 @@ fun BasicCompose(
             )
 
         )
+        Image(painter = painterResource(id =R.drawable.saya),
+            contentDescription = null,
+        )
     }
 }
 
