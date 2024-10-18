@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -56,7 +57,7 @@ fun BasicCompose(
 ){
     Column(horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
-        modifier = Modifier.fillMaxSize()){
+        modifier = Modifier.fillMaxSize().background(Color(0xFFE0E0E0))){
         Text(
             text = "Indonesia",
             style = TextStyle(
@@ -97,8 +98,8 @@ fun BasicCompose(
                 fontFamily = FontFamily.Serif,
                 shadow = Shadow(
                     color = Color.Black,
-                    offset = Offset(4f,4f),
-                    blurRadius = 10f),
+                    offset = Offset(3f,3f),
+                    blurRadius = 5f),
             )
         )
         Text(
